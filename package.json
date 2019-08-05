@@ -1,0 +1,25 @@
+{
+  "name": "graphql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackson-/graphql-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackson-/graphql-node/issues"
+  },
+  "homepage": "https://github.com/jackson-/graphql-node#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.8.1",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2"
+  }
+}
