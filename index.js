@@ -16,6 +16,9 @@ const resolvers = {
 const server = new ApolloServer({ typeDefs, resolvers });
 
 const app = express();
+
+app.get("/", (req, res) => res.send("Babel Working!"))
+
 server.applyMiddleware({ app });
 
 app.listen({ port: 4000 }, () =>
